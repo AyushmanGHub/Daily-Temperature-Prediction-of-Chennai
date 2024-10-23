@@ -5,3 +5,27 @@ The project focuses on predicting daily weather variables for Chennai, including
 
 ### Final Ressult: Real vs predicted 
 <img src="Pred vs real.png" alt="Alt Text" width="1000"/>
+
+
+## Model Evaluation Metrics
+
+### 1. **Average Temperature (`tavg`)**
+- **Mean Absolute Error (MAE):** 1.0279
+- **Mean Absolute Percentage Error (MAPE):** 3.39%
+- **Root Mean Squared Error (RMSE):** 1.2968
+
+### 2. **Minimum Temperature (`tmin`)**
+- **Mean Absolute Error (MAE):** 1.3788
+- **Mean Absolute Percentage Error (MAPE):** 5.12%
+- **Root Mean Squared Error (RMSE):** 1.6572
+
+### 3. **Maximum Temperature (`tmax`)**
+- **Mean Absolute Error (MAE):** 1.4549
+- **Mean Absolute Percentage Error (MAPE):** 4.22%
+- **Root Mean Squared Error (RMSE):** 1.9491
+
+### 4. **Precipitation (`prcp`)**
+- **Mean Absolute Error (MAE):** 8.4026
+- **Mean Absolute Percentage Error (MAPE):** 9291367762433748.0%
+- **Root Mean Squared Error (RMSE):** 24.6913
+
